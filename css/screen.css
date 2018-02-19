@@ -289,6 +289,45 @@ input[type="number"]
 
 /* ===== STATE STYLES ======= */
 
+/* Big Phones */
+@media screen and (min-width: 480px) {
+  #lead-img-container {
+    height: 18em;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+
+  img {
+    object-fit: cover;
+  }
+
+  #home-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #lead-img-container {
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 40em;
+    overflow: hidden;
+    border-radius: 0.4em 0 0em 0.4em;
+  }
+
+  #form-section {
+    display: flex;
+    min-width: calc(50% - 4em);
+    max-width: calc(50% - 4em);
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+  }
+
+}
+
 /* Desktop & Laptop */
 @media screen and (min-width: 1224px) {
 
