@@ -193,6 +193,7 @@ html {
   justify-content: center;
   max-width: 100%;
   min-height: 100%;
+  line-height: 1.1em;
   background-color: #C8112A;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 0.85em;
@@ -200,6 +201,7 @@ html {
 
 h1 {
   font-size: 2em;
+  line-height: 1.2em;
   font-weight: bold;
 }
 
@@ -228,13 +230,17 @@ img {
   padding: 1em;
 }
 
+#signup-form {
+  padding-top: 1em;
+}
+
 input[type="submit"],
 input[type="button"] {
   border: none;
   outline: none;
   background-color: #C8112A;
-  height: 3.3em;
-  width: 3.3em;
+  height: 4em;
+  width: 4em;
   border-radius: 50%;
   color: white;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.45);
@@ -302,9 +308,11 @@ input[type="number"]:focus
 
 /* Big Phones */
 @media screen and (min-width: 480px) {
+
   #lead-img-container {
     height: 18em;
   }
+
 }
 
 /* Tablets */
