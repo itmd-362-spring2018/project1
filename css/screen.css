@@ -251,3 +251,24 @@ input[type="button"]:hover {
   transition: box-shadow 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"]
+{
+  margin: 0.3em 0;
+  width: calc(100% - 1em);
+  outline: none;
+  border: none;
+  background-color: #DFDFDF;
+  color: #FFF;
+  height: 1.2em;
+  line-height: 1.2em;
+  padding: 0.5em;
+  font-family: Georgia, serif;
+}
+
+.form-item {
+  padding: 0.4em 0;
+}
