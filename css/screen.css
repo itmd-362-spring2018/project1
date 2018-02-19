@@ -187,13 +187,13 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 
-h1 {
-  font-size: 3em;
+html {
+  max-width: 100%;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
-img {
-  max-width:100%;
-  max-height:100%;
+h1 {
+  font-size: 3em;
 }
 
 #home-content {
@@ -201,6 +201,8 @@ img {
 }
 
 #lead-img-container {
+  position: relative;
   height: 10em;
+  max-width: 100%;
   overflow: hidden;
 }
